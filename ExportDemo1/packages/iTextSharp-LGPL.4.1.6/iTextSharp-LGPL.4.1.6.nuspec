@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>iTextSharp-LGPL</id>
+    <version>4.1.6</version>
+    <title>iTextSharp (LGPL / MPL)</title>
+    <authors>Bruno Lowagie,  Paulo Soares</authors>
+    <owners>Bruno Lowagie,  Paulo Soares</owners>
+    <projectUrl>http://sourceforge.net/projects/itextsharp/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>iTextSharp is a port of the iText open source java library for PDF generation written entirely in C# for the .NET platform. This package contains the last version of the library released under the Mozilla Public License and the LGPL, before the project moved to the AGPL. Use this package if you need a free PDF library for use in closed-source projects.</description>
+    <summary>LGPL/MPL version of iTextSharp - a library for PDF generation written entirely in C# for the .NET platform.</summary>
+    <copyright>Copyright 1999-2009 Bruno Lowagie and Paulo Soares</copyright>
+    <tags>pdf itext</tags>
+  </metadata>
+</package>

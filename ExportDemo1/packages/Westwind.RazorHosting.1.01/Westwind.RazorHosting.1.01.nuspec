@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Westwind.RazorHosting</id>
+    <version>1.01</version>
+    <title>West Wind RazorHosting Library (Westwind.RazorHosting)</title>
+    <authors>Rick Strahl,  West Wind Technologies</authors>
+    <owners>Rick Strahl,  West Wind Technologies</owners>
+    <licenseUrl>https://github.com/RickStrahl/Westwind.RazorHosting#license</licenseUrl>
+    <projectUrl>https://github.com/RickStrahl/Westwind.RazorHosting</projectUrl>
+    <iconUrl>http://www.west-wind.com/westwindwebtoolkit/images/WestwindWebToolkit_100x100.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This library allows you to host the Razor template engine found in ASP.NET MVC and ASP.NET WebPages in your own applications. Support for base rendering engine and a String and FolderHost containers are provided, with the host providing AppDomain isolation, template/assembly caching and support.</description>
+    <summary>Hosting the Razor Runtime outside of ASP.NET MVC/WebPages</summary>
+    <releaseNotes />
+    <copyright>Rick Strahl, West Wind Technologies 2007-2012</copyright>
+    <language>en-US</language>
+    <tags>Razor Templating Hosting CSharp</tags>
+    <dependencies>
+      <dependency id="Microsoft.AspNet.Razor" version="2.0" />
+    </dependencies>
+  </metadata>
+</package>
