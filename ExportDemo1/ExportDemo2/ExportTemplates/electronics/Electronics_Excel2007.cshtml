@@ -1,0 +1,11 @@
+@inherits RazorTemplateFolderHost<IEnumerable<ExportDemo1.Electronics>>
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<worksheet xmlns='http://schemas.openxmlformats.org/spreadsheetml/2006/main' xmlns:r='http://schemas.openxmlformats.org/officeDocument/2006/relationships'>
+	<sheetData>
+   
+<row>
+<c t='inlineStr'><is><t>Id</t></is></c><c t='inlineStr'><is><t>Data</t></is></c><c t='inlineStr'><is><t>Name</t></is></c></row>
+@foreach(var item in Model){
+@RenderPartial("~/Electronics_Excel2007_item.cshtml",item);
+}
+	</sheetData></worksheet>

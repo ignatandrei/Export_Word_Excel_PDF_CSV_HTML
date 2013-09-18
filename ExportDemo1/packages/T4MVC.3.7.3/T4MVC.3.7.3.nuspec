@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>T4MVC</id>
+    <version>3.7.3</version>
+    <title>T4MVC</title>
+    <authors>David Ebbo</authors>
+    <owners>David Ebbo</owners>
+    <licenseUrl>http://mvccontrib.codeplex.com/license</licenseUrl>
+    <projectUrl>http://t4mvc.codeplex.com/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>T4MVC is a T4 template that generates strongly typed helpers for ASP.NET MVC.</description>
+    <summary>T4MVC is a T4 template that generates strongly typed helpers for ASP.NET MVC.</summary>
+    <releaseNotes />
+    <copyright />
+    <language>en-US</language>
+    <tags>t4 mvc t4mvc</tags>
+    <dependencies>
+      <dependency id="T4MVCExtensions" version="3.7.3" />
+    </dependencies>
+  </metadata>
+</package>

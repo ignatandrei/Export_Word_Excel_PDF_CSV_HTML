@@ -1,0 +1,28 @@
+﻿@using ExporterObjects;
+@{
+    ViewBag.Title = "Exporter";
+}
+
+<h2>@ViewBag.Message</h2>
+<p>
+    @Html.ActionLink(ExportToFormat.CSV.ToString(), MVC.Home.ExportTo((int)ExportToFormat.CSV))
+    <br />
+    @Html.ActionLink(ExportToFormat.Excel2003XML.ToString(), MVC.Home.ExportTo((int)ExportToFormat.Excel2003XML))
+    <br />
+    @Html.ActionLink(ExportToFormat.Excel2007.ToString(), MVC.Home.ExportTo((int)ExportToFormat.Excel2007))
+    <br />
+    @Html.ActionLink(ExportToFormat.HTML.ToString(), MVC.Home.ExportTo((int)ExportToFormat.HTML))
+    <br />
+    
+    
+    @Html.ActionLink(ExportToFormat.PDFtextSharpXML.ToString(), MVC.Home.ExportTo((int)ExportToFormat.PDFtextSharpXML))
+    <br />
+    @Html.ActionLink(ExportToFormat.Word2003XML.ToString(), MVC.Home.ExportTo((int)ExportToFormat.Word2003XML))
+    <br />
+    @Html.ActionLink(ExportToFormat.Word2007.ToString(), MVC.Home.ExportTo((int)ExportToFormat.Word2007))
+    <br />
+    @Html.ActionLink(ExportToFormat.XML.ToString(), MVC.Home.ExportTo((int)ExportToFormat.XML))
+    <br />
+    
+
+</p>
