@@ -1,0 +1,1 @@
+﻿Here will be the templates folder

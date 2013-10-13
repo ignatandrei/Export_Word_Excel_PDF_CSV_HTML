@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Exporter</id>
+    <version>1.0.2</version>
+    <title>Exporter</title>
+    <authors>andrei</authors>
+    <owners>andrei</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Exports List&lt;T&gt; into CSV/HTML/Word/Excel/PDF</description>
+    <summary>Exports List&lt;T&gt; into CSV/HTML/Word/Excel/PDF</summary>
+    <releaseNotes />
+    <copyright />
+    <language />
+    <tags>pdf word excel csv html</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.0">
+        <dependency id="Westwind.RazorHosting" version="1.01" />
+        <dependency id="DocumentFormat.OpenXml" version="2.5" />
+        <dependency id="iTextSharp-LGPL" version="4.1.6" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
